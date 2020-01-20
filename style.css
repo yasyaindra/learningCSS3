@@ -1,0 +1,47 @@
+div {
+    display: inline-block;
+    margin:15px
+}
+.kotak {
+    width:150px;
+    height: 150px;
+    border-radius: 10px 10px;
+    border:10px solid black
+}
+
+.daun {
+    width:150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 0 50% 0 50%;
+    border: 10px solid grey;
+}
+
+.lingkaran {
+    width:150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.setengah-lingkaran-bawah {
+    width: 150px;
+    height:70px;
+	border: 10px solid blue;
+	border-radius: 100px 100px 0 0;
+}
+
+.setengah-lingkaran-atas {
+    width: 150px;
+    height:70px;
+	border: 10px solid blue;
+	border-radius: 0px 0px 100px 100px;
+}
+
+.kotak-setengah {
+    width: 150px;
+		height: 150px;
+    border: 10px solid orange;
+		border-radius: 20px 100px 100px 20px;
+}
